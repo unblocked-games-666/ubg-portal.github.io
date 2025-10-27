@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Slope 2 Players — Play Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Play Slope 2 Players instantly in browser. Click Play to start the HTML5 game.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/game.css" />
+</head>
+<body>
+
+<header>
+  <a class="back" href="/index.html">← Back to Home</a>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="/game_images/slope-2-players.png" alt="Slope 2 Players" class="thumb">
+    <h1>Slope 2 Players</h1>
+    
+  </div>
+
+  <div class="playbox">
+    <div class="play-overlay" id="overlay">
+              <button id="playBtn">▶ Play</button>
+          </div>
+    <iframe id="frame" allow="fullscreen; gamepad; accelerometer; gyroscope; autoplay"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-popups"
+      src="about:blank"></iframe>
+  </div>
+
+  <div class="ad-box">[970×250 Advertisement]</div>
+
+  <h2 class="section">More Games You Might Like</h2>
+  <div class="grid">
+           <a class="card" href="/g/rise-of-neon-square.html">
+        <img src="/game_images/rise-of-neon-square.png" alt="Rise Of Neon Square">
+        <div class="title">Rise Of Neon Square</div>
+      </a>
+           <a class="card" href="/g/cupcakes-2048.html">
+        <img src="/game_images/cupcakes-2048.png" alt="Cupcakes 2048">
+        <div class="title">Cupcakes 2048</div>
+      </a>
+           <a class="card" href="/g/wheely-6-fairytale.html">
+        <img src="/game_images/wheely-6-fairytale.png" alt="Wheely 6 Fairytale">
+        <div class="title">Wheely 6 Fairytale</div>
+      </a>
+           <a class="card" href="/g/bad-ice-cream-3.html">
+        <img src="/game_images/bad-ice-cream-3.png" alt="Bad Ice Cream 3">
+        <div class="title">Bad Ice Cream 3</div>
+      </a>
+           <a class="card" href="/g/bad-ice-cream-2.html">
+        <img src="/game_images/bad-ice-cream-2.png" alt="Bad Ice Cream 2">
+        <div class="title">Bad Ice Cream 2</div>
+      </a>
+           <a class="card" href="/g/madalin-stunt-cars-2.html">
+        <img src="/game_images/madalin-stunt-cars-2.png" alt="Madalin Stunt Cars 2">
+        <div class="title">Madalin Stunt Cars 2</div>
+      </a>
+           <a class="card" href="/g/lurkers-io.html">
+        <img src="/game_images/lurkers-io.png" alt="Lurkers Io">
+        <div class="title">Lurkers Io</div>
+      </a>
+           <a class="card" href="/g/wheelie-bike.html">
+        <img src="/game_images/wheelie-bike.png" alt="Wheelie Bike">
+        <div class="title">Wheelie Bike</div>
+      </a>
+           <a class="card" href="/g/ovo-3-dimensions.html">
+        <img src="/game_images/ovo-3-dimensions.png" alt="Ovo 3 Dimensions">
+        <div class="title">Ovo 3 Dimensions</div>
+      </a>
+           <a class="card" href="/g/idle-breakout.html">
+        <img src="/game_images/idle-breakout.png" alt="Idle Breakout">
+        <div class="title">Idle Breakout</div>
+      </a>
+           <a class="card" href="/g/moto-x3m-spooky-land.html">
+        <img src="/game_images/moto-x3m-spooky-land.png" alt="Moto X3m Spooky Land">
+        <div class="title">Moto X3m Spooky Land</div>
+      </a>
+           <a class="card" href="/g/mr-bullet.html">
+        <img src="/game_images/mr-bullet.png" alt="Mr Bullet">
+        <div class="title">Mr Bullet</div>
+      </a>
+           <a class="card" href="/g/gobdun.html">
+        <img src="/game_images/gobdun.png" alt="Gobdun">
+        <div class="title">Gobdun</div>
+      </a>
+           <a class="card" href="/g/deathcar-io.html">
+        <img src="/game_images/deathcar-io.png" alt="Deathcar Io">
+        <div class="title">Deathcar Io</div>
+      </a>
+           <a class="card" href="/g/boxing-random.html">
+        <img src="/game_images/boxing-random.png" alt="Boxing Random">
+        <div class="title">Boxing Random</div>
+      </a>
+           <a class="card" href="/g/push-the-box.html">
+        <img src="/game_images/push-the-box.png" alt="Push The Box">
+        <div class="title">Push The Box</div>
+      </a>
+           <a class="card" href="/g/hop-and-pop-it.html">
+        <img src="/game_images/hop-and-pop-it.png" alt="Hop And Pop It">
+        <div class="title">Hop And Pop It</div>
+      </a>
+           <a class="card" href="/g/volley-random.html">
+        <img src="/game_images/volley-random.png" alt="Volley Random">
+        <div class="title">Volley Random</div>
+      </a>
+           <a class="card" href="/g/sausage-flip.html">
+        <img src="/game_images/sausage-flip.png" alt="Sausage Flip">
+        <div class="title">Sausage Flip</div>
+      </a>
+           <a class="card" href="/g/baldis-basics-field-trip.html">
+        <img src="/game_images/baldis-basics-field-trip.png" alt="Baldis Basics Field Trip">
+        <div class="title">Baldis Basics Field Trip</div>
+      </a>
+           <a class="card" href="/g/wheely-7-detective.html">
+        <img src="/game_images/wheely-7-detective.png" alt="Wheely 7 Detective">
+        <div class="title">Wheely 7 Detective</div>
+      </a>
+           <a class="card" href="/g/gun-spin.html">
+        <img src="/game_images/gun-spin.png" alt="Gun Spin">
+        <div class="title">Gun Spin</div>
+      </a>
+           <a class="card" href="/g/minecraft-classic.html">
+        <img src="/game_images/minecraft-classic.png" alt="Minecraft Classic">
+        <div class="title">Minecraft Classic</div>
+      </a>
+           <a class="card" href="/g/dinosaurs-merge-master.html">
+        <img src="/game_images/dinosaurs-merge-master.png" alt="Dinosaurs Merge Master">
+        <div class="title">Dinosaurs Merge Master</div>
+      </a>
+           <a class="card" href="/g/icy-purple-head-3.html">
+        <img src="/game_images/icy-purple-head-3.png" alt="Icy Purple Head 3">
+        <div class="title">Icy Purple Head 3</div>
+      </a>
+           <a class="card" href="/g/zombie-shooter-2d.html">
+        <img src="/game_images/zombie-shooter-2d.png" alt="Zombie Shooter 2d">
+        <div class="title">Zombie Shooter 2d</div>
+      </a>
+           <a class="card" href="/g/ovo-2-144-version.html">
+        <img src="/game_images/ovo-2-144-version.png" alt="Ovo 2 144 Version">
+        <div class="title">Ovo 2 144 Version</div>
+      </a>
+           <a class="card" href="/g/super-liquid-soccer.html">
+        <img src="/game_images/super-liquid-soccer.png" alt="Super Liquid Soccer">
+        <div class="title">Super Liquid Soccer</div>
+      </a>
+           <a class="card" href="/g/backrooms.html">
+        <img src="/game_images/backrooms.png" alt="Backrooms">
+        <div class="title">Backrooms</div>
+      </a>
+           <a class="card" href="/g/football-strike.html">
+        <img src="/game_images/football-strike.png" alt="Football Strike">
+        <div class="title">Football Strike</div>
+      </a>
+           <a class="card" href="/g/suika-game.html">
+        <img src="/game_images/suika-game.png" alt="Suika game">
+        <div class="title">Suika game</div>
+      </a>
+           <a class="card" href="/g/super-fowlst.html">
+        <img src="/game_images/super-fowlst.png" alt="Super Fowlst">
+        <div class="title">Super Fowlst</div>
+      </a>
+           <a class="card" href="/g/moto-x3m4-winter.html">
+        <img src="/game_images/moto-x3m4-winter.png" alt="Moto X3m4 Winter">
+        <div class="title">Moto X3m4 Winter</div>
+      </a>
+           <a class="card" href="/g/merc-zone.html">
+        <img src="/game_images/merc-zone.png" alt="Merc Zone">
+        <div class="title">Merc Zone</div>
+      </a>
+           <a class="card" href="/g/moto-x3m-two.html">
+        <img src="/game_images/moto-x3m-two.png" alt="Moto X3m Two">
+        <div class="title">Moto X3m Two</div>
+      </a>
+           <a class="card" href="/g/masked-forces.html">
+        <img src="/game_images/masked-forces.png" alt="Masked Forces">
+        <div class="title">Masked Forces</div>
+      </a>
+           <a class="card" href="/g/fnf-online.html">
+        <img src="/game_images/fnf-online.png" alt="Fnf Online">
+        <div class="title">Fnf Online</div>
+      </a>
+           <a class="card" href="/g/tube-clicker.html">
+        <img src="/game_images/tube-clicker.png" alt="Tube Clicker">
+        <div class="title">Tube Clicker</div>
+      </a>
+           <a class="card" href="/g/stickman-hook.html">
+        <img src="/game_images/stickman-hook.png" alt="Stickman Hook">
+        <div class="title">Stickman Hook</div>
+      </a>
+           <a class="card" href="/g/head-soccer-2023.html">
+        <img src="/game_images/head-soccer-2023.png" alt="Head Soccer 2023">
+        <div class="title">Head Soccer 2023</div>
+      </a>
+      </div>
+</main>
+
+<footer>© 2025 HTML 6 Games Portal</footer>
+
+<script>
+(function(){
+  const btn=document.getElementById('playBtn');
+  const ovl=document.getElementById('overlay');
+  const frame=document.getElementById('frame');
+    btn?.addEventListener('click',()=>{
+    frame.src="/games/slope-2-players/";
+    frame.style.display='block';
+    ovl.style.display='none';
+    window.scrollTo({top:document.querySelector('.playbox').offsetTop-40,behavior:'smooth'});
+  });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Raft Wars 2 — Play Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Play Raft Wars 2 instantly in browser. Click Play to start the HTML5 game.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/game.css" />
+</head>
+<body>
+
+<header>
+  <a class="back" href="/index.html">← Back to Home</a>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="/game_images/raft-wars-2.png" alt="Raft Wars 2" class="thumb">
+    <h1>Raft Wars 2</h1>
+    
+  </div>
+
+  <div class="playbox">
+    <div class="play-overlay" id="overlay">
+              <button id="playBtn">▶ Play</button>
+          </div>
+    <iframe id="frame" allow="fullscreen; gamepad; accelerometer; gyroscope; autoplay"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-popups"
+      src="about:blank"></iframe>
+  </div>
+
+  <div class="ad-box">[970×250 Advertisement]</div>
+
+  <h2 class="section">More Games You Might Like</h2>
+  <div class="grid">
+           <a class="card" href="/g/yohoho-io.html">
+        <img src="/game_images/yohoho-io.png" alt="Yohoho Io">
+        <div class="title">Yohoho Io</div>
+      </a>
+           <a class="card" href="/g/temple-run-2.html">
+        <img src="/game_images/temple-run-2.png" alt="Temple Run 2">
+        <div class="title">Temple Run 2</div>
+      </a>
+           <a class="card" href="/g/indian-truck.html">
+        <img src="/game_images/indian-truck.png" alt="Indian Truck">
+        <div class="title">Indian Truck</div>
+      </a>
+           <a class="card" href="/g/wheely-6-fairytale.html">
+        <img src="/game_images/wheely-6-fairytale.png" alt="Wheely 6 Fairytale">
+        <div class="title">Wheely 6 Fairytale</div>
+      </a>
+           <a class="card" href="/g/soccer-random.html">
+        <img src="/game_images/soccer-random.png" alt="Soccer Random">
+        <div class="title">Soccer Random</div>
+      </a>
+           <a class="card" href="/g/snail-bob-8.html">
+        <img src="/game_images/snail-bob-8.png" alt="Snail Bob 8">
+        <div class="title">Snail Bob 8</div>
+      </a>
+           <a class="card" href="/g/ball-sort-soccer.html">
+        <img src="/game_images/ball-sort-soccer.png" alt="Ball Sort Soccer">
+        <div class="title">Ball Sort Soccer</div>
+      </a>
+           <a class="card" href="/g/riddle-transfer-2.html">
+        <img src="/game_images/riddle-transfer-2.png" alt="Riddle Transfer 2">
+        <div class="title">Riddle Transfer 2</div>
+      </a>
+           <a class="card" href="/g/iron-snout.html">
+        <img src="/game_images/iron-snout.png" alt="Iron Snout">
+        <div class="title">Iron Snout</div>
+      </a>
+           <a class="card" href="/g/subway-surfers-san-francisco.html">
+        <img src="/game_images/subway-surfers-san-francisco.png" alt="Subway Surfers San Francisco">
+        <div class="title">Subway Surfers San Francisco</div>
+      </a>
+           <a class="card" href="/g/push-the-box-3d.html">
+        <img src="/game_images/push-the-box-3d.png" alt="Push The Box 3d">
+        <div class="title">Push The Box 3d</div>
+      </a>
+           <a class="card" href="/g/tanuki-sunset.html">
+        <img src="/game_images/tanuki-sunset.png" alt="Tanuki Sunset">
+        <div class="title">Tanuki Sunset</div>
+      </a>
+           <a class="card" href="/g/geometry-dash-2.html">
+        <img src="/game_images/geometry-dash-2.png" alt="Geometry Dash 2">
+        <div class="title">Geometry Dash 2</div>
+      </a>
+           <a class="card" href="/g/stickman-boost-2.html">
+        <img src="/game_images/stickman-boost-2.png" alt="Stickman Boost 2">
+        <div class="title">Stickman Boost 2</div>
+      </a>
+           <a class="card" href="/g/kirka-io.html">
+        <img src="/game_images/kirka-io.png" alt="Kirka Io">
+        <div class="title">Kirka Io</div>
+      </a>
+           <a class="card" href="/g/pixel-smash-duel.html">
+        <img src="/game_images/pixel-smash-duel.png" alt="Pixel Smash Duel">
+        <div class="title">Pixel Smash Duel</div>
+      </a>
+           <a class="card" href="/g/snail-bob-love-story.html">
+        <img src="/game_images/snail-bob-love-story.png" alt="Snail Bob Love Story">
+        <div class="title">Snail Bob Love Story</div>
+      </a>
+           <a class="card" href="/g/time-shooter-3.html">
+        <img src="/game_images/time-shooter-3.png" alt="Time Shooter 3">
+        <div class="title">Time Shooter 3</div>
+      </a>
+           <a class="card" href="/g/fishing-and-lines.html">
+        <img src="/game_images/fishing-and-lines.png" alt="Fishing And Lines">
+        <div class="title">Fishing And Lines</div>
+      </a>
+           <a class="card" href="/g/war-brokers-io.html">
+        <img src="/game_images/war-brokers-io.png" alt="War Brokers Io">
+        <div class="title">War Brokers Io</div>
+      </a>
+           <a class="card" href="/g/idle-breakout.html">
+        <img src="/game_images/idle-breakout.png" alt="Idle Breakout">
+        <div class="title">Idle Breakout</div>
+      </a>
+           <a class="card" href="/g/slope.html">
+        <img src="/game_images/slope.png" alt="Slope">
+        <div class="title">Slope</div>
+      </a>
+           <a class="card" href="/g/hanger-2.html">
+        <img src="/game_images/hanger-2.png" alt="Hanger 2">
+        <div class="title">Hanger 2</div>
+      </a>
+           <a class="card" href="/g/flip-bottle.html">
+        <img src="/game_images/flip-bottle.png" alt="Flip Bottle">
+        <div class="title">Flip Bottle</div>
+      </a>
+           <a class="card" href="/g/fireboy-and-watergirl-forest-temple.html">
+        <img src="/game_images/fireboy-and-watergirl-forest-temple.png" alt="Fireboy And Watergirl Forest Temple">
+        <div class="title">Fireboy And Watergirl Forest Temple</div>
+      </a>
+           <a class="card" href="/g/tomb-runner.html">
+        <img src="/game_images/tomb-runner.png" alt="Tomb Runner">
+        <div class="title">Tomb Runner</div>
+      </a>
+           <a class="card" href="/g/papas-burgeria.html">
+        <img src="/game_images/papas-burgeria.png" alt="Papas Burgeria">
+        <div class="title">Papas Burgeria</div>
+      </a>
+           <a class="card" href="/g/madalin-stunt-cars-3.html">
+        <img src="/game_images/madalin-stunt-cars-3.png" alt="Madalin Stunt Cars 3">
+        <div class="title">Madalin Stunt Cars 3</div>
+      </a>
+           <a class="card" href="/g/block-world.html">
+        <img src="/game_images/block-world.png" alt="Block World">
+        <div class="title">Block World</div>
+      </a>
+           <a class="card" href="/g/short-ride.html">
+        <img src="/game_images/short-ride.png" alt="Short Ride">
+        <div class="title">Short Ride</div>
+      </a>
+           <a class="card" href="/g/gravity-soccer.html">
+        <img src="/game_images/gravity-soccer.png" alt="Gravity Soccer">
+        <div class="title">Gravity Soccer</div>
+      </a>
+           <a class="card" href="/g/vex-8.html">
+        <img src="/game_images/vex-8.png" alt="Vex 8">
+        <div class="title">Vex 8</div>
+      </a>
+           <a class="card" href="/g/boxing-phsyics-2.html">
+        <img src="/game_images/boxing-phsyics-2.png" alt="Boxing Phsyics 2">
+        <div class="title">Boxing Phsyics 2</div>
+      </a>
+           <a class="card" href="/g/x-trial-racing.html">
+        <img src="/game_images/x-trial-racing.png" alt="X Trial Racing">
+        <div class="title">X Trial Racing</div>
+      </a>
+           <a class="card" href="/g/subway-runner.html">
+        <img src="/game_images/subway-runner.png" alt="Subway Runner">
+        <div class="title">Subway Runner</div>
+      </a>
+           <a class="card" href="/g/bottle-flip-3d.html">
+        <img src="/game_images/bottle-flip-3d.png" alt="Bottle Flip 3d">
+        <div class="title">Bottle Flip 3d</div>
+      </a>
+           <a class="card" href="/g/backrooms.html">
+        <img src="/game_images/backrooms.png" alt="Backrooms">
+        <div class="title">Backrooms</div>
+      </a>
+           <a class="card" href="/g/dead-again.html">
+        <img src="/game_images/dead-again.png" alt="Dead Again">
+        <div class="title">Dead Again</div>
+      </a>
+           <a class="card" href="/g/death-run-3d.html">
+        <img src="/game_images/death-run-3d.png" alt="Death Run 3d">
+        <div class="title">Death Run 3d</div>
+      </a>
+           <a class="card" href="/g/wheely-5.html">
+        <img src="/game_images/wheely-5.png" alt="Wheely 5">
+        <div class="title">Wheely 5</div>
+      </a>
+      </div>
+</main>
+
+<footer>© 2025 HTML 6 Games Portal</footer>
+
+<script>
+(function(){
+  const btn=document.getElementById('playBtn');
+  const ovl=document.getElementById('overlay');
+  const frame=document.getElementById('frame');
+    btn?.addEventListener('click',()=>{
+    frame.src="/games/raft-wars-2/";
+    frame.style.display='block';
+    ovl.style.display='none';
+    window.scrollTo({top:document.querySelector('.playbox').offsetTop-40,behavior:'smooth'});
+  });
+  })();
+</script>
+</body>
+</html>

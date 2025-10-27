@@ -1,0 +1,121 @@
+:root {
+    --bg: #0b0f14;
+    --card: #121821;
+    --fg: #eaf2ff;
+    --muted: #8aa0b2;
+    --accent: #56b4fc;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg,#0b0f14,#0e141b 30%,#0b0f14);
+    color: var(--fg);
+    font: 16px/1.5 system-ui,Segoe UI,Roboto,Inter,Arial
+}
+
+header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    position: sticky;
+    top: 0;
+    background: rgba(11,15,20,.85);
+    backdrop-filter: saturate(150%) blur(8px);
+    border-bottom: 1px solid #1a2330
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    max-width: 820px;
+    margin-left: auto
+}
+
+input[type=search] {
+    flex: 1;
+    background: #0f141c;
+    border: 1px solid #1f2a38;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: var(--fg);
+    outline: none
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 14px;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+a.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--card);
+    border: 1px solid #182232;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform .12s ease, box-shadow .12s ease
+}
+
+a.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,.35)
+}
+
+.thumb {
+    aspect-ratio: 16/9;
+    background: #0b0f14;
+    display: block;
+    width: 100%;
+    object-fit: cover
+}
+
+.meta {
+    padding: 10px 12px
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slug {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 2px;
+    word-break: break-all
+}
+
+.count {
+    padding: 8px 20px;
+    color: var(--muted);
+    font-size: 14px
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #7c93a8;
+    font-size: 12px
+}

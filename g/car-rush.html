@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Car Rush — Play Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Play Car Rush instantly in browser. Click Play to start the HTML5 game.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/game.css" />
+</head>
+<body>
+
+<header>
+  <a class="back" href="/index.html">← Back to Home</a>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="/game_images/car-rush.png" alt="Car Rush" class="thumb">
+    <h1>Car Rush</h1>
+    
+  </div>
+
+  <div class="playbox">
+    <div class="play-overlay" id="overlay">
+              <button id="playBtn">▶ Play</button>
+          </div>
+    <iframe id="frame" allow="fullscreen; gamepad; accelerometer; gyroscope; autoplay"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-popups"
+      src="about:blank"></iframe>
+  </div>
+
+  <div class="ad-box">[970×250 Advertisement]</div>
+
+  <h2 class="section">More Games You Might Like</h2>
+  <div class="grid">
+           <a class="card" href="/g/lolbeans-io.html">
+        <img src="/game_images/lolbeans-io.png" alt="Lolbeans Io">
+        <div class="title">Lolbeans Io</div>
+      </a>
+           <a class="card" href="/g/super-mario-bros.html">
+        <img src="/game_images/super-mario-bros.png" alt="Super Mario Bros">
+        <div class="title">Super Mario Bros</div>
+      </a>
+           <a class="card" href="/g/timber-man.html">
+        <img src="/game_images/timber-man.png" alt="Timber Man">
+        <div class="title">Timber Man</div>
+      </a>
+           <a class="card" href="/g/football-strike.html">
+        <img src="/game_images/football-strike.png" alt="Football Strike">
+        <div class="title">Football Strike</div>
+      </a>
+           <a class="card" href="/g/tube-jumpers.html">
+        <img src="/game_images/tube-jumpers.png" alt="Tube Jumpers">
+        <div class="title">Tube Jumpers</div>
+      </a>
+           <a class="card" href="/g/fishing-and-lines.html">
+        <img src="/game_images/fishing-and-lines.png" alt="Fishing And Lines">
+        <div class="title">Fishing And Lines</div>
+      </a>
+           <a class="card" href="/g/crossy-road.html">
+        <img src="/game_images/crossy-road.png" alt="Crossy Road">
+        <div class="title">Crossy Road</div>
+      </a>
+           <a class="card" href="/g/vex-6.html">
+        <img src="/game_images/vex-6.png" alt="Vex 6">
+        <div class="title">Vex 6</div>
+      </a>
+           <a class="card" href="/g/raft-wars.html">
+        <img src="/game_images/raft-wars.png" alt="Raft Wars">
+        <div class="title">Raft Wars</div>
+      </a>
+           <a class="card" href="/g/the-backrooms-3d.html">
+        <img src="/game_images/the-backrooms-3d.png" alt="The Backrooms 3d">
+        <div class="title">The Backrooms 3d</div>
+      </a>
+           <a class="card" href="/g/two-ball-3d.html">
+        <img src="/game_images/two-ball-3d.png" alt="Two Ball 3d">
+        <div class="title">Two Ball 3d</div>
+      </a>
+           <a class="card" href="/g/archery-world-tour.html">
+        <img src="/game_images/archery-world-tour.png" alt="Archery World Tour">
+        <div class="title">Archery World Tour</div>
+      </a>
+           <a class="card" href="/g/the-fish-master.html">
+        <img src="/game_images/the-fish-master.png" alt="The Fish Master">
+        <div class="title">The Fish Master</div>
+      </a>
+           <a class="card" href="/g/snail-bob-love-story.html">
+        <img src="/game_images/snail-bob-love-story.png" alt="Snail Bob Love Story">
+        <div class="title">Snail Bob Love Story</div>
+      </a>
+           <a class="card" href="/g/bloxorz.html">
+        <img src="/game_images/bloxorz.png" alt="Bloxorz">
+        <div class="title">Bloxorz</div>
+      </a>
+           <a class="card" href="/g/rooftop-snipers.html">
+        <img src="/game_images/rooftop-snipers.png" alt="Rooftop Snipers">
+        <div class="title">Rooftop Snipers</div>
+      </a>
+           <a class="card" href="/g/stickman-boost-2.html">
+        <img src="/game_images/stickman-boost-2.png" alt="Stickman Boost 2">
+        <div class="title">Stickman Boost 2</div>
+      </a>
+           <a class="card" href="/g/tunnel-rush.html">
+        <img src="/game_images/tunnel-rush.png" alt="Tunnel Rush">
+        <div class="title">Tunnel Rush</div>
+      </a>
+           <a class="card" href="/g/bad-ice-cream-2.html">
+        <img src="/game_images/bad-ice-cream-2.png" alt="Bad Ice Cream 2">
+        <div class="title">Bad Ice Cream 2</div>
+      </a>
+           <a class="card" href="/g/case-clicker.html">
+        <img src="/game_images/case-clicker.png" alt="Case Clicker">
+        <div class="title">Case Clicker</div>
+      </a>
+           <a class="card" href="/g/mr-bullet.html">
+        <img src="/game_images/mr-bullet.png" alt="Mr Bullet">
+        <div class="title">Mr Bullet</div>
+      </a>
+           <a class="card" href="/g/ovo-3-dimensions.html">
+        <img src="/game_images/ovo-3-dimensions.png" alt="Ovo 3 Dimensions">
+        <div class="title">Ovo 3 Dimensions</div>
+      </a>
+           <a class="card" href="/g/tube-clicker.html">
+        <img src="/game_images/tube-clicker.png" alt="Tube Clicker">
+        <div class="title">Tube Clicker</div>
+      </a>
+           <a class="card" href="/g/a-small-world-cup.html">
+        <img src="/game_images/a-small-world-cup.png" alt="A Small World Cup">
+        <div class="title">A Small World Cup</div>
+      </a>
+           <a class="card" href="/g/city-coach-bus-sim.html">
+        <img src="/game_images/city-coach-bus-sim.png" alt="City Coach Bus Sim">
+        <div class="title">City Coach Bus Sim</div>
+      </a>
+           <a class="card" href="/g/dinosaurs-merge-master.html">
+        <img src="/game_images/dinosaurs-merge-master.png" alt="Dinosaurs Merge Master">
+        <div class="title">Dinosaurs Merge Master</div>
+      </a>
+           <a class="card" href="/g/hop-and-pop-it.html">
+        <img src="/game_images/hop-and-pop-it.png" alt="Hop And Pop It">
+        <div class="title">Hop And Pop It</div>
+      </a>
+           <a class="card" href="/g/big-tower-tiny-square.html">
+        <img src="/game_images/big-tower-tiny-square.png" alt="Big Tower Tiny Square">
+        <div class="title">Big Tower Tiny Square</div>
+      </a>
+           <a class="card" href="/g/blocky-snakes.html">
+        <img src="/game_images/blocky-snakes.png" alt="Blocky Snakes">
+        <div class="title">Blocky Snakes</div>
+      </a>
+           <a class="card" href="/g/park-out.html">
+        <img src="/game_images/park-out.png" alt="Park Out">
+        <div class="title">Park Out</div>
+      </a>
+           <a class="card" href="/g/uno.html">
+        <img src="/game_images/uno.png" alt="Uno">
+        <div class="title">Uno</div>
+      </a>
+           <a class="card" href="/g/crazy-tunel-3d.html">
+        <img src="/game_images/crazy-tunel-3d.png" alt="Crazy Tunel 3d">
+        <div class="title">Crazy Tunel 3d</div>
+      </a>
+           <a class="card" href="/g/jungle-td.html">
+        <img src="/game_images/jungle-td.png" alt="Jungle Td">
+        <div class="title">Jungle Td</div>
+      </a>
+           <a class="card" href="/g/vex-3.html">
+        <img src="/game_images/vex-3.png" alt="Vex 3">
+        <div class="title">Vex 3</div>
+      </a>
+           <a class="card" href="/g/tank-trouble-2.html">
+        <img src="/game_images/tank-trouble-2.png" alt="Tank Trouble 2">
+        <div class="title">Tank Trouble 2</div>
+      </a>
+           <a class="card" href="/g/stick-archers-battle.html">
+        <img src="/game_images/stick-archers-battle.png" alt="Stick Archers Battle">
+        <div class="title">Stick Archers Battle</div>
+      </a>
+           <a class="card" href="/g/running-fred.html">
+        <img src="/game_images/running-fred.png" alt="Running Fred">
+        <div class="title">Running Fred</div>
+      </a>
+           <a class="card" href="/g/cars-simulator.html">
+        <img src="/game_images/cars-simulator.png" alt="Cars Simulator">
+        <div class="title">Cars Simulator</div>
+      </a>
+           <a class="card" href="/g/penalty-kick-online.html">
+        <img src="/game_images/penalty-kick-online.png" alt="Penalty Kick Online">
+        <div class="title">Penalty Kick Online</div>
+      </a>
+           <a class="card" href="/g/bloons-td4.html">
+        <img src="/game_images/bloons-td4.png" alt="Bloons Td4">
+        <div class="title">Bloons Td4</div>
+      </a>
+      </div>
+</main>
+
+<footer>© 2025 HTML 6 Games Portal</footer>
+
+<script>
+(function(){
+  const btn=document.getElementById('playBtn');
+  const ovl=document.getElementById('overlay');
+  const frame=document.getElementById('frame');
+    btn?.addEventListener('click',()=>{
+    frame.src="/games/car-rush/";
+    frame.style.display='block';
+    ovl.style.display='none';
+    window.scrollTo({top:document.querySelector('.playbox').offsetTop-40,behavior:'smooth'});
+  });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Aquapark Io — Play Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Play Aquapark Io instantly in browser. Click Play to start the HTML5 game.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/game.css" />
+</head>
+<body>
+
+<header>
+  <a class="back" href="/index.html">← Back to Home</a>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="/game_images/aquapark-io.png" alt="Aquapark Io" class="thumb">
+    <h1>Aquapark Io</h1>
+    
+  </div>
+
+  <div class="playbox">
+    <div class="play-overlay" id="overlay">
+              <button id="playBtn">▶ Play</button>
+          </div>
+    <iframe id="frame" allow="fullscreen; gamepad; accelerometer; gyroscope; autoplay"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-popups"
+      src="about:blank"></iframe>
+  </div>
+
+  <div class="ad-box">[970×250 Advertisement]</div>
+
+  <h2 class="section">More Games You Might Like</h2>
+  <div class="grid">
+           <a class="card" href="/g/the-backrooms-3d.html">
+        <img src="/game_images/the-backrooms-3d.png" alt="The Backrooms 3d">
+        <div class="title">The Backrooms 3d</div>
+      </a>
+           <a class="card" href="/g/temple-run-2.html">
+        <img src="/game_images/temple-run-2.png" alt="Temple Run 2">
+        <div class="title">Temple Run 2</div>
+      </a>
+           <a class="card" href="/g/wheely-3.html">
+        <img src="/game_images/wheely-3.png" alt="Wheely 3">
+        <div class="title">Wheely 3</div>
+      </a>
+           <a class="card" href="/g/3-pandas-in-japan.html">
+        <img src="/game_images/3-pandas-in-japan.png" alt="3 Pandas In Japan">
+        <div class="title">3 Pandas In Japan</div>
+      </a>
+           <a class="card" href="/g/wheely-8-aliens.html">
+        <img src="/game_images/wheely-8-aliens.png" alt="Wheely 8 Aliens">
+        <div class="title">Wheely 8 Aliens</div>
+      </a>
+           <a class="card" href="/g/among-us.html">
+        <img src="/game_images/among-us.png" alt="Among Us">
+        <div class="title">Among Us</div>
+      </a>
+           <a class="card" href="/g/park-out.html">
+        <img src="/game_images/park-out.png" alt="Park Out">
+        <div class="title">Park Out</div>
+      </a>
+           <a class="card" href="/g/wheely-5.html">
+        <img src="/game_images/wheely-5.png" alt="Wheely 5">
+        <div class="title">Wheely 5</div>
+      </a>
+           <a class="card" href="/g/rooftop-snipers-2.html">
+        <img src="/game_images/rooftop-snipers-2.png" alt="Rooftop Snipers 2">
+        <div class="title">Rooftop Snipers 2</div>
+      </a>
+           <a class="card" href="/g/penalty-kick.html">
+        <img src="/game_images/penalty-kick.png" alt="Penalty Kick">
+        <div class="title">Penalty Kick</div>
+      </a>
+           <a class="card" href="/g/mutazone.html">
+        <img src="/game_images/mutazone.png" alt="Mutazone">
+        <div class="title">Mutazone</div>
+      </a>
+           <a class="card" href="/g/scrap-metal-3-infernal-trap.html">
+        <img src="/game_images/scrap-metal-3-infernal-trap.png" alt="Scrap Metal 3 Infernal Trap">
+        <div class="title">Scrap Metal 3 Infernal Trap</div>
+      </a>
+           <a class="card" href="/g/timber-man.html">
+        <img src="/game_images/timber-man.png" alt="Timber Man">
+        <div class="title">Timber Man</div>
+      </a>
+           <a class="card" href="/g/snail-bob-fantasy-story.html">
+        <img src="/game_images/snail-bob-fantasy-story.png" alt="Snail Bob Fantasy Story">
+        <div class="title">Snail Bob Fantasy Story</div>
+      </a>
+           <a class="card" href="/g/moto-x3m-6-spooky-land.html">
+        <img src="/game_images/moto-x3m-6-spooky-land.png" alt="Moto X3m 6 Spooky Land">
+        <div class="title">Moto X3m 6 Spooky Land</div>
+      </a>
+           <a class="card" href="/g/fire-truck-rescue.html">
+        <img src="/game_images/fire-truck-rescue.png" alt="Fire Truck Rescue">
+        <div class="title">Fire Truck Rescue</div>
+      </a>
+           <a class="card" href="/g/subway-surfers.html">
+        <img src="/game_images/subway-surfers.png" alt="Subway Surfers">
+        <div class="title">Subway Surfers</div>
+      </a>
+           <a class="card" href="/g/fnf-online.html">
+        <img src="/game_images/fnf-online.png" alt="Fnf Online">
+        <div class="title">Fnf Online</div>
+      </a>
+           <a class="card" href="/g/super-fowlst.html">
+        <img src="/game_images/super-fowlst.png" alt="Super Fowlst">
+        <div class="title">Super Fowlst</div>
+      </a>
+           <a class="card" href="/g/lurkers-io.html">
+        <img src="/game_images/lurkers-io.png" alt="Lurkers Io">
+        <div class="title">Lurkers Io</div>
+      </a>
+           <a class="card" href="/g/creative-kill-chamber.html">
+        <img src="/game_images/creative-kill-chamber.png" alt="Creative Kill Chamber">
+        <div class="title">Creative Kill Chamber</div>
+      </a>
+           <a class="card" href="/g/connect-3.html">
+        <img src="/game_images/connect-3.png" alt="Connect 3">
+        <div class="title">Connect 3</div>
+      </a>
+           <a class="card" href="/g/big-tower-tiny-square.html">
+        <img src="/game_images/big-tower-tiny-square.png" alt="Big Tower Tiny Square">
+        <div class="title">Big Tower Tiny Square</div>
+      </a>
+           <a class="card" href="/g/pudding-monsters.html">
+        <img src="/game_images/pudding-monsters.png" alt="Pudding Monsters">
+        <div class="title">Pudding Monsters</div>
+      </a>
+           <a class="card" href="/g/flappy-bird.html">
+        <img src="/game_images/flappy-bird.png" alt="Flappy Bird">
+        <div class="title">Flappy Bird</div>
+      </a>
+           <a class="card" href="/g/push-the-box-3d.html">
+        <img src="/game_images/push-the-box-3d.png" alt="Push The Box 3d">
+        <div class="title">Push The Box 3d</div>
+      </a>
+           <a class="card" href="/g/poop-clicker-3.html">
+        <img src="/game_images/poop-clicker-3.png" alt="Poop Clicker 3">
+        <div class="title">Poop Clicker 3</div>
+      </a>
+           <a class="card" href="/g/voxiom-io.html">
+        <img src="/game_images/voxiom-io.png" alt="Voxiom Io">
+        <div class="title">Voxiom Io</div>
+      </a>
+           <a class="card" href="/g/vex-3.html">
+        <img src="/game_images/vex-3.png" alt="Vex 3">
+        <div class="title">Vex 3</div>
+      </a>
+           <a class="card" href="/g/pixel-smash-duel.html">
+        <img src="/game_images/pixel-smash-duel.png" alt="Pixel Smash Duel">
+        <div class="title">Pixel Smash Duel</div>
+      </a>
+           <a class="card" href="/g/minecraft-case-simulator.html">
+        <img src="/game_images/minecraft-case-simulator.png" alt="Minecraft Case Simulator">
+        <div class="title">Minecraft Case Simulator</div>
+      </a>
+           <a class="card" href="/g/pixel-gun-3d.html">
+        <img src="/game_images/pixel-gun-3d.png" alt="Pixel Gun 3d">
+        <div class="title">Pixel Gun 3d</div>
+      </a>
+           <a class="card" href="/g/soccer-random.html">
+        <img src="/game_images/soccer-random.png" alt="Soccer Random">
+        <div class="title">Soccer Random</div>
+      </a>
+           <a class="card" href="/g/fnaf-shooter.html">
+        <img src="/game_images/fnaf-shooter.png" alt="Fnaf Shooter">
+        <div class="title">Fnaf Shooter</div>
+      </a>
+           <a class="card" href="/g/slope-ball.html">
+        <img src="/game_images/slope-ball.png" alt="Slope Ball">
+        <div class="title">Slope Ball</div>
+      </a>
+           <a class="card" href="/g/mad-truck-challenge.html">
+        <img src="/game_images/mad-truck-challenge.png" alt="Mad Truck Challenge">
+        <div class="title">Mad Truck Challenge</div>
+      </a>
+           <a class="card" href="/g/car-rush.html">
+        <img src="/game_images/car-rush.png" alt="Car Rush">
+        <div class="title">Car Rush</div>
+      </a>
+           <a class="card" href="/g/snail-bob-island-story.html">
+        <img src="/game_images/snail-bob-island-story.png" alt="Snail Bob Island Story">
+        <div class="title">Snail Bob Island Story</div>
+      </a>
+           <a class="card" href="/g/elastic-man.html">
+        <img src="/game_images/elastic-man.png" alt="Elastic Man">
+        <div class="title">Elastic Man</div>
+      </a>
+           <a class="card" href="/g/bottle-flip-3d.html">
+        <img src="/game_images/bottle-flip-3d.png" alt="Bottle Flip 3d">
+        <div class="title">Bottle Flip 3d</div>
+      </a>
+      </div>
+</main>
+
+<footer>© 2025 HTML 6 Games Portal</footer>
+
+<script>
+(function(){
+  const btn=document.getElementById('playBtn');
+  const ovl=document.getElementById('overlay');
+  const frame=document.getElementById('frame');
+    btn?.addEventListener('click',()=>{
+    frame.src="/games/aquapark-io/";
+    frame.style.display='block';
+    ovl.style.display='none';
+    window.scrollTo({top:document.querySelector('.playbox').offsetTop-40,behavior:'smooth'});
+  });
+  })();
+</script>
+</body>
+</html>

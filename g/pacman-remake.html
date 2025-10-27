@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pacman Remake — Play Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Play Pacman Remake instantly in browser. Click Play to start the HTML5 game.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/game.css" />
+</head>
+<body>
+
+<header>
+  <a class="back" href="/index.html">← Back to Home</a>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="/game_images/pacman-remake.png" alt="Pacman Remake" class="thumb">
+    <h1>Pacman Remake</h1>
+    
+  </div>
+
+  <div class="playbox">
+    <div class="play-overlay" id="overlay">
+              <button id="playBtn">▶ Play</button>
+          </div>
+    <iframe id="frame" allow="fullscreen; gamepad; accelerometer; gyroscope; autoplay"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-popups"
+      src="about:blank"></iframe>
+  </div>
+
+  <div class="ad-box">[970×250 Advertisement]</div>
+
+  <h2 class="section">More Games You Might Like</h2>
+  <div class="grid">
+           <a class="card" href="/g/voxiom-io.html">
+        <img src="/game_images/voxiom-io.png" alt="Voxiom Io">
+        <div class="title">Voxiom Io</div>
+      </a>
+           <a class="card" href="/g/real-garbage-truck.html">
+        <img src="/game_images/real-garbage-truck.png" alt="Real Garbage Truck">
+        <div class="title">Real Garbage Truck</div>
+      </a>
+           <a class="card" href="/g/gswitch-2.html">
+        <img src="/game_images/gswitch-2.png" alt="Gswitch 2">
+        <div class="title">Gswitch 2</div>
+      </a>
+           <a class="card" href="/g/fire-truck-rescue.html">
+        <img src="/game_images/fire-truck-rescue.png" alt="Fire Truck Rescue">
+        <div class="title">Fire Truck Rescue</div>
+      </a>
+           <a class="card" href="/g/sprinter.html">
+        <img src="/game_images/sprinter.png" alt="Sprinter">
+        <div class="title">Sprinter</div>
+      </a>
+           <a class="card" href="/g/among-us.html">
+        <img src="/game_images/among-us.png" alt="Among Us">
+        <div class="title">Among Us</div>
+      </a>
+           <a class="card" href="/g/subway-surfers-bali.html">
+        <img src="/game_images/subway-surfers-bali.png" alt="Subway Surfers Bali">
+        <div class="title">Subway Surfers Bali</div>
+      </a>
+           <a class="card" href="/g/rooftop-snipers-2.html">
+        <img src="/game_images/rooftop-snipers-2.png" alt="Rooftop Snipers 2">
+        <div class="title">Rooftop Snipers 2</div>
+      </a>
+           <a class="card" href="/g/awesome-tanks-2.html">
+        <img src="/game_images/awesome-tanks-2.png" alt="Awesome Tanks 2">
+        <div class="title">Awesome Tanks 2</div>
+      </a>
+           <a class="card" href="/g/vex-7.html">
+        <img src="/game_images/vex-7.png" alt="Vex 7">
+        <div class="title">Vex 7</div>
+      </a>
+           <a class="card" href="/g/wormate-io.html">
+        <img src="/game_images/wormate-io.png" alt="Wormate Io">
+        <div class="title">Wormate Io</div>
+      </a>
+           <a class="card" href="/g/apple-shooter.html">
+        <img src="/game_images/apple-shooter.png" alt="Apple Shooter">
+        <div class="title">Apple Shooter</div>
+      </a>
+           <a class="card" href="/g/snail-bob-8.html">
+        <img src="/game_images/snail-bob-8.png" alt="Snail Bob 8">
+        <div class="title">Snail Bob 8</div>
+      </a>
+           <a class="card" href="/g/zuck-vs-musk-techbro-beatdown.html">
+        <img src="/game_images/zuck-vs-musk-techbro-beatdown.png" alt="Zuck Vs Musk Techbro Beatdown">
+        <div class="title">Zuck Vs Musk Techbro Beatdown</div>
+      </a>
+           <a class="card" href="/g/jungle-tower-defense.html">
+        <img src="/game_images/jungle-tower-defense.png" alt="Jungle Tower Defense">
+        <div class="title">Jungle Tower Defense</div>
+      </a>
+           <a class="card" href="/g/eggy-car.html">
+        <img src="/game_images/eggy-car.png" alt="Eggy Car">
+        <div class="title">Eggy Car</div>
+      </a>
+           <a class="card" href="/g/the-backrooms-3d.html">
+        <img src="/game_images/the-backrooms-3d.png" alt="The Backrooms 3d">
+        <div class="title">The Backrooms 3d</div>
+      </a>
+           <a class="card" href="/g/subway-surfers-new-york.html">
+        <img src="/game_images/subway-surfers-new-york.png" alt="Subway Surfers New York">
+        <div class="title">Subway Surfers New York</div>
+      </a>
+           <a class="card" href="/g/slope-two-players-multiplayer.html">
+        <img src="/game_images/slope-two-players-multiplayer.png" alt="Slope Two Players Multiplayer">
+        <div class="title">Slope Two Players Multiplayer</div>
+      </a>
+           <a class="card" href="/g/happy-wheels.html">
+        <img src="/game_images/happy-wheels.png" alt="Happy Wheels">
+        <div class="title">Happy Wheels</div>
+      </a>
+           <a class="card" href="/g/five-nights-at-freddies-2.html">
+        <img src="/game_images/five-nights-at-freddies-2.png" alt="Five Nights At Freddies 2">
+        <div class="title">Five Nights At Freddies 2</div>
+      </a>
+           <a class="card" href="/g/pixel-smash-duel.html">
+        <img src="/game_images/pixel-smash-duel.png" alt="Pixel Smash Duel">
+        <div class="title">Pixel Smash Duel</div>
+      </a>
+           <a class="card" href="/g/super-mario-bros.html">
+        <img src="/game_images/super-mario-bros.png" alt="Super Mario Bros">
+        <div class="title">Super Mario Bros</div>
+      </a>
+           <a class="card" href="/g/3d-bowling.html">
+        <img src="/game_images/3d-bowling.png" alt="3d Bowling">
+        <div class="title">3d Bowling</div>
+      </a>
+           <a class="card" href="/g/cars-simulator.html">
+        <img src="/game_images/cars-simulator.png" alt="Cars Simulator">
+        <div class="title">Cars Simulator</div>
+      </a>
+           <a class="card" href="/g/spider-solitaire.html">
+        <img src="/game_images/spider-solitaire.png" alt="Spider Solitaire">
+        <div class="title">Spider Solitaire</div>
+      </a>
+           <a class="card" href="/g/money-movers-guard-duty.html">
+        <img src="/game_images/money-movers-guard-duty.png" alt="Money Movers Guard Duty">
+        <div class="title">Money Movers Guard Duty</div>
+      </a>
+           <a class="card" href="/g/temple-run-2.html">
+        <img src="/game_images/temple-run-2.png" alt="Temple Run 2">
+        <div class="title">Temple Run 2</div>
+      </a>
+           <a class="card" href="/g/moto-x3m-winter.html">
+        <img src="/game_images/moto-x3m-winter.png" alt="Moto X3m Winter">
+        <div class="title">Moto X3m Winter</div>
+      </a>
+           <a class="card" href="/g/burger-clicker.html">
+        <img src="/game_images/burger-clicker.png" alt="Burger Clicker">
+        <div class="title">Burger Clicker</div>
+      </a>
+           <a class="card" href="/g/jetpack-joyride-browser.html">
+        <img src="/game_images/jetpack-joyride-browser.png" alt="Jetpack Joyride Browser">
+        <div class="title">Jetpack Joyride Browser</div>
+      </a>
+           <a class="card" href="/g/the-fish-master.html">
+        <img src="/game_images/the-fish-master.png" alt="The Fish Master">
+        <div class="title">The Fish Master</div>
+      </a>
+           <a class="card" href="/g/cannon-basketball-4.html">
+        <img src="/game_images/cannon-basketball-4.png" alt="Cannon Basketball 4">
+        <div class="title">Cannon Basketball 4</div>
+      </a>
+           <a class="card" href="/g/gravity-soccer.html">
+        <img src="/game_images/gravity-soccer.png" alt="Gravity Soccer">
+        <div class="title">Gravity Soccer</div>
+      </a>
+           <a class="card" href="/g/subway-surfers.html">
+        <img src="/game_images/subway-surfers.png" alt="Subway Surfers">
+        <div class="title">Subway Surfers</div>
+      </a>
+           <a class="card" href="/g/adam-and-eve-5-part-one.html">
+        <img src="/game_images/adam-and-eve-5-part-one.png" alt="Adam And Eve 5 Part One">
+        <div class="title">Adam And Eve 5 Part One</div>
+      </a>
+           <a class="card" href="/g/money-movers.html">
+        <img src="/game_images/money-movers.png" alt="Money Movers">
+        <div class="title">Money Movers</div>
+      </a>
+           <a class="card" href="/g/alien-hominid.html">
+        <img src="/game_images/alien-hominid.png" alt="Alien Hominid">
+        <div class="title">Alien Hominid</div>
+      </a>
+           <a class="card" href="/g/the-backrooms.html">
+        <img src="/game_images/the-backrooms.png" alt="The Backrooms">
+        <div class="title">The Backrooms</div>
+      </a>
+           <a class="card" href="/g/ninja-cat-exploit.html">
+        <img src="/game_images/ninja-cat-exploit.png" alt="Ninja Cat Exploit">
+        <div class="title">Ninja Cat Exploit</div>
+      </a>
+      </div>
+</main>
+
+<footer>© 2025 HTML 6 Games Portal</footer>
+
+<script>
+(function(){
+  const btn=document.getElementById('playBtn');
+  const ovl=document.getElementById('overlay');
+  const frame=document.getElementById('frame');
+    btn?.addEventListener('click',()=>{
+    frame.src="/games/pacman-remake/";
+    frame.style.display='block';
+    ovl.style.display='none';
+    window.scrollTo({top:document.querySelector('.playbox').offsetTop-40,behavior:'smooth'});
+  });
+  })();
+</script>
+</body>
+</html>
